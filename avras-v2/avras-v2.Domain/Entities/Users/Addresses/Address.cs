@@ -14,8 +14,8 @@
 
         public string Number { get; set; } = string.Empty;
 
-        public virtual ApplicationUser User { get; set; } = new();
+        public virtual ApplicationUser? User { get; set; }
 
-        public virtual City City { get; set; } = new();
+        public virtual City? City { get; set; }
     }
 }

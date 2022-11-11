@@ -6,9 +6,9 @@
     }
     public class BaseEntitWithoutId
     {
-        private bool Active { get; set; }
-        private bool Delete { get; set; }
-        public DateTime UpdateDate { get; set; }
+        private bool Active { get; set; } = true;
+        private bool Delete { get; set; } = false;
+        public DateTime UpdateDate { get; set; } = DateTime.UtcNow;
 
         public virtual void Deleted()
         {
