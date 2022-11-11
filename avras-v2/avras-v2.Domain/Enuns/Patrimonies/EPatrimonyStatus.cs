@@ -11,6 +11,8 @@ namespace avras_v2.Domain.Enuns.Patrimonies
         [Description("Solicitação de concessão aprovada"), Name("Aprovada")]
         APPROVED,
         [Description("Solicitação de consseção recusada"), Name("Recusada")]
-        REFUSED
+        REFUSED,
+        [Description("Solicitação de consseção cancelada"), Name("Cancelada")]
+        CANCELED,
     }
 }

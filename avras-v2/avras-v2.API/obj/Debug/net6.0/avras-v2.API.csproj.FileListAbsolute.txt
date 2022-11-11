@@ -1,0 +1,7 @@
+C:\Users\carlos.alcantara\Source\Repos\avras_v2\avras-v2\avras-v2.API\obj\Debug\net6.0\avras-v2.API.csproj.AssemblyReference.cache
+C:\Users\carlos.alcantara\Source\Repos\avras_v2\avras-v2\avras-v2.API\obj\Debug\net6.0\avras-v2.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlos.alcantara\Source\Repos\avras_v2\avras-v2\avras-v2.API\obj\Debug\net6.0\avras-v2.API.AssemblyInfoInputs.cache
+C:\Users\carlos.alcantara\Source\Repos\avras_v2\avras-v2\avras-v2.API\obj\Debug\net6.0\avras-v2.API.AssemblyInfo.cs
+C:\Users\carlos.alcantara\Source\Repos\avras_v2\avras-v2\avras-v2.API\obj\Debug\net6.0\avras-v2.API.csproj.CoreCompileInputs.cache
+C:\Users\carlos.alcantara\Source\Repos\avras_v2\avras-v2\avras-v2.API\obj\Debug\net6.0\avras-v2.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\carlos.alcantara\Source\Repos\avras_v2\avras-v2\avras-v2.API\obj\Debug\net6.0\avras-v2.API.MvcApplicationPartsAssemblyInfo.cache

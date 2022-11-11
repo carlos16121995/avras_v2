@@ -1,0 +1,12 @@
+C:\Users\carlos.alcantara\Source\Repos\avras_v2\avras-v2\avras-v2.Application\bin\Debug\net6.0\avras-v2.Application.deps.json
+C:\Users\carlos.alcantara\Source\Repos\avras_v2\avras-v2\avras-v2.Application\bin\Debug\net6.0\avras-v2.Application.dll
+C:\Users\carlos.alcantara\Source\Repos\avras_v2\avras-v2\avras-v2.Application\bin\Debug\net6.0\avras-v2.Application.pdb
+C:\Users\carlos.alcantara\Source\Repos\avras_v2\avras-v2\avras-v2.Application\obj\Debug\net6.0\avras-v2.Application.csproj.AssemblyReference.cache
+C:\Users\carlos.alcantara\Source\Repos\avras_v2\avras-v2\avras-v2.Application\obj\Debug\net6.0\avras-v2.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlos.alcantara\Source\Repos\avras_v2\avras-v2\avras-v2.Application\obj\Debug\net6.0\avras-v2.Application.AssemblyInfoInputs.cache
+C:\Users\carlos.alcantara\Source\Repos\avras_v2\avras-v2\avras-v2.Application\obj\Debug\net6.0\avras-v2.Application.AssemblyInfo.cs
+C:\Users\carlos.alcantara\Source\Repos\avras_v2\avras-v2\avras-v2.Application\obj\Debug\net6.0\avras-v2.Application.csproj.CoreCompileInputs.cache
+C:\Users\carlos.alcantara\Source\Repos\avras_v2\avras-v2\avras-v2.Application\obj\Debug\net6.0\avras-v2.Application.dll
+C:\Users\carlos.alcantara\Source\Repos\avras_v2\avras-v2\avras-v2.Application\obj\Debug\net6.0\refint\avras-v2.Application.dll
+C:\Users\carlos.alcantara\Source\Repos\avras_v2\avras-v2\avras-v2.Application\obj\Debug\net6.0\avras-v2.Application.pdb
+C:\Users\carlos.alcantara\Source\Repos\avras_v2\avras-v2\avras-v2.Application\obj\Debug\net6.0\ref\avras-v2.Application.dll

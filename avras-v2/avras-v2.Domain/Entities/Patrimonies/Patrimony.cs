@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace avras_v2.Domain.Entities.Patrimonies
+﻿namespace avras_v2.Domain.Entities.Patrimonies
 {
     public class Patrimony : BaseEntity<int>
     {
@@ -26,6 +20,9 @@ namespace avras_v2.Domain.Entities.Patrimonies
 
         public DateTime? LossDate { get; set; }
 
+
+
         public virtual PatrimonyType PatrimonyType { get; set; } = new();
+        public virtual ICollection<Concession> Concessions { get; set; } = new HashSet<Concession>();
     }
 }

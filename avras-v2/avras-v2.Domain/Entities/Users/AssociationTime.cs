@@ -3,9 +3,9 @@
     public class AssociationTime : BaseEntity<Guid>
     {
         public Guid UserId { get; set; }
-        public DateTime? StartDate { get; set; }
-        public DateTime? EndDate { get; set; }
+        public DateTime StartedAt { get; set; }
+        public DateTime? EndedAt { get; set; }
 
-        public virtual ApplicationUser User { get; set; } = new();
+        public virtual ApplicationUser? User { get; set; }
     }
 }
