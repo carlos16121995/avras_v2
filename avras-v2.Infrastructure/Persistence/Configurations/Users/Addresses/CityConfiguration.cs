@@ -12,6 +12,9 @@ namespace avras_v2.Infrastructure.Persistence.Configurations.Users.Addresses
             builder
                 .ToTable(nameof(City), nameof(Users));
 
+            builder.Property((c) => c.Id)
+                .ValueGeneratedNever();
+
             builder
                .Property((b) => b.Name)
                .HasMaxLength(60)

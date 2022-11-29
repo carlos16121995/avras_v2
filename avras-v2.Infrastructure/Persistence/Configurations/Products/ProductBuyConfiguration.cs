@@ -5,12 +5,12 @@ namespace avras_v2.Infrastructure.Persistence.Configurations.Products
 {
     using avras_v2.Domain.Entities.Products;
 
-    internal class ProductBuyConfiguration : IEntityTypeConfiguration<ProductBuy>
+    internal class ProductBuyConfiguration : IEntityTypeConfiguration<ProductPurchase>
     {
-        public void Configure(EntityTypeBuilder<ProductBuy> builder)
+        public void Configure(EntityTypeBuilder<ProductPurchase> builder)
         {
             builder
-                .ToTable(nameof(ProductBuy), nameof(Products));
+                .ToTable(nameof(ProductPurchase), nameof(Products));
 
             builder.Property(e => e.Id)
                 .HasDefaultValueSql("NEWSEQUENTIALID()");
@@ -21,7 +21,7 @@ namespace avras_v2.Infrastructure.Persistence.Configurations.Products
 
             builder
                 .HasOne(productBuy => productBuy.Product)
-                .WithMany(Product => Product.ProductsBuy);
+                .WithMany(Product => Product.ProductsPurchases);
 
             builder
                 .Property(e => e.BoughtIn)

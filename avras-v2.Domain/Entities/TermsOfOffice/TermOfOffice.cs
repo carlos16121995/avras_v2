@@ -1,6 +1,6 @@
 ﻿namespace avras_v2.Domain.Entities.TermsOfOffice
 {
-    public class TermOfOffice : BaseEntity<int>
+    public class TermOfOffice : BaseEntity<Guid>
     {
         public string Name { get; set; } = string.Empty;
         public string? Summary { get; set; }

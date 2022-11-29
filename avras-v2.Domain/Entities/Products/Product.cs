@@ -12,6 +12,6 @@ namespace avras_v2.Domain.Entities.Products
 
         public virtual ProductCategory? ProductCategory { get; set; }
         public virtual ICollection<SaleItems>? SaleItems { get; set; } = new HashSet<SaleItems>();
-        public virtual ICollection<ProductBuy>? ProductsBuy { get; set; } = new HashSet<ProductBuy>();
+        public virtual ICollection<ProductPurchase>? ProductsPurchases { get; set; } = new HashSet<ProductPurchase>();
     }
 }

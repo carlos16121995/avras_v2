@@ -1,0 +1,41 @@
+[33mcommit 9ebc7d507eadc4c98970384c148a614f6ce5c947[m[33m ([m[1;36mHEAD -> [m[1;32mfeature/criacao-projeto[m[33m)[m
+Author: Carlos Alcântara <carloseduardo161219@gmail.com>
+Date:   Tue Nov 29 12:06:43 2022 -0300
+
+    feature: gitignore
+
+[33mcommit 204c6ffee0c33d64876f8ca2d123a10b236e6d59[m
+Author: Carlos Alcântara <carloseduardo16121995@gmail.com>
+Date:   Tue Nov 29 11:09:34 2022 -0300
+
+    feature: mudança de namespace
+
+[33mcommit 737f31ccb857de792230c51e0e23b3e8092670da[m
+Author: Carlos Alcântara <carloseduardo16121995@gmail.com>
+Date:   Tue Nov 29 10:49:40 2022 -0300
+
+    feature: modelagem de dados (parcial)
+
+[33mcommit f49a45f9ae13b1b6d41f65c8132f5a97c2777355[m
+Author: Carlos Alcântara <carloseduardo16121995@gmail.com>
+Date:   Fri Nov 11 10:21:33 2022 -0300
+
+    feat: criação de entidades
+
+[33mcommit 6f136571b0fc74ee38c910a9fbb58ce055bd8fe0[m
+Author: Carlos Alcântara <carloseduardo161219@gmail.com>
+Date:   Mon Oct 31 01:15:05 2022 -0300
+
+    feat: modelagem (parcial)
+
+[33mcommit 04351cc345694a5accf64829487f90944f25c0f3[m
+Author: Carlos Alcântara <carloseduardo161219@gmail.com>
+Date:   Sun Oct 30 22:59:11 2022 -0300
+
+    feat: criação do projeto (parcial)
+
+[33mcommit 4134a4644dc3d73984dca9148d8fd1f2197eb4ce[m[33m ([m[1;31morigin/release/0.0.1[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/dev[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Carlos Eduardo <carloseduardo161219@gmail.com>
+Date:   Wed Nov 17 21:59:34 2021 +0000
+
+    Initial commit

@@ -30,7 +30,8 @@ namespace avras_v2.Infrastructure.Persistence.Configurations.Sales
 
             builder
                 .HasOne(sale => sale.CashControl)
-                .WithMany(cashControl => cashControl.Sales);
+                .WithMany(cashControl => cashControl.Sales)
+                .OnDelete(DeleteBehavior.Restrict);
 
             builder
                 .HasOne(sale => sale.Charge)

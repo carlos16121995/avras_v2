@@ -1,6 +1,6 @@
 ﻿namespace avras_v2.Domain.Entities.Products
 {
-    public class ProductBuy : BaseEntity<Guid>
+    public class ProductPurchase : BaseEntity<Guid>
     {
         public Guid ProductId { get; set; }
         public decimal PurchaseValue { get; set; }

@@ -16,7 +16,7 @@ namespace avras_v2.Infrastructure.Persistence
             base.OnModelCreating(builder);
 
             builder.ApplyConfigurationsFromAssembly(typeof(ApplicationUserConfiguration).Assembly,
-                    (type) => (type.Namespace ?? "").Contains("Configuracoes"));
+                    (type) => (type.Namespace ?? "").Contains("Configurations"));
         }
     }
 }
