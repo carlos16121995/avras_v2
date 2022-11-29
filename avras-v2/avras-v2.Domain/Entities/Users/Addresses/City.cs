@@ -1,6 +1,6 @@
 ﻿namespace avras_v2.Domain.Entities.Users.Addresses
 {
-    public class City : BaseEntitWithoutId
+    public class City : BaseEntityWithoutId
     {
         public string Name { get; set; } = string.Empty;
         public string UF { get; set; } = string.Empty;

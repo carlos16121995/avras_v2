@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\carlos.alcantara\\source\\repos\\avras_v2\\avras-v2\\avras-v2.Application\\avras-v2.Application.csproj": {}
+    "C:\\Users\\carlos.alcantara\\Source\\Repos\\avras_v2\\avras-v2\\avras-v2.Application\\avras-v2.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\carlos.alcantara\\source\\repos\\avras_v2\\avras-v2\\avras-v2.Application\\avras-v2.Application.csproj": {
+    "C:\\Users\\carlos.alcantara\\Source\\Repos\\avras_v2\\avras-v2\\avras-v2.Application\\avras-v2.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carlos.alcantara\\source\\repos\\avras_v2\\avras-v2\\avras-v2.Application\\avras-v2.Application.csproj",
+        "projectUniqueName": "C:\\Users\\carlos.alcantara\\Source\\Repos\\avras_v2\\avras-v2\\avras-v2.Application\\avras-v2.Application.csproj",
         "projectName": "avras-v2.Application",
-        "projectPath": "C:\\Users\\carlos.alcantara\\source\\repos\\avras_v2\\avras-v2\\avras-v2.Application\\avras-v2.Application.csproj",
+        "projectPath": "C:\\Users\\carlos.alcantara\\Source\\Repos\\avras_v2\\avras-v2\\avras-v2.Application\\avras-v2.Application.csproj",
         "packagesPath": "C:\\Users\\carlos.alcantara\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\carlos.alcantara\\Source\\Repos\\avras_v2\\avras-v2\\avras-v2.Application\\obj\\",
         "projectStyle": "PackageReference",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s9mdxZMXS3oUchCjf8Zu90jK0hCwg6bZqok02fltMIGEThauihMeqXOQ1nxJ+nYAdGjrPYie1jRrnmuYoDfN1g==",
+  "dgSpecHash": "TkvvVM2m0ANB6zgAMoRtl+lseKEgplLoV5EQ+t2g48uOVi/b5Ac3yRc0opzGpM48wSwzvYcuFV6+NUaqYS6b3Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\carlos.alcantara\\source\\repos\\avras_v2\\avras-v2\\avras-v2.API\\avras-v2.API.csproj",
+  "projectFilePath": "C:\\Users\\carlos.alcantara\\Source\\Repos\\avras_v2\\avras-v2\\avras-v2.API\\avras-v2.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\carlos.alcantara\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\carlos.alcantara\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

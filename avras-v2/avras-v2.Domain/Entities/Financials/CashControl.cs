@@ -3,7 +3,7 @@ using avras_v2.Domain.Entities.Users;
 
 namespace avras_v2.Domain.Entities.Financials
 {
-    public class CashControl : BaseEntity<int>
+    public class CashControl : BaseEntity<Guid>
     {
         public Guid UserOpeningId { get; private set; }
         public Guid? UserClosingId { get; private set; }
