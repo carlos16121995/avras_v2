@@ -4,9 +4,9 @@ using avras_v2.Domain.Enuns.Rents;
 
 namespace avras_v2.Domain.Entities.Rents
 {
-    public class Rent : BaseEntity<int>
+    public class Rent : BaseEntity<Guid>
     {
-        public long ChargeId { get; set; }
+        public Guid ChargeId { get; set; }
         public Guid CustomerId { get; set; }
         public int RentTypeId { get; set; }
         public Guid? UserId { get; set; }

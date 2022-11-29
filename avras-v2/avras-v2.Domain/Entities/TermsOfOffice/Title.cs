@@ -1,4 +1,4 @@
-﻿namespace avras_v2.Domain.Entities.Users.TermsOfOffice
+﻿namespace avras_v2.Domain.Entities.TermsOfOffice
 {
     public class Title : BaseEntity<int>
     {

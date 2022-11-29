@@ -2,9 +2,9 @@
 
 namespace avras_v2.Domain.Entities.Sponsores
 {
-    public class Sponsor : BaseEntity<int>
+    public class Sponsor : BaseEntity<Guid>
     {
-        public long ChargeId { get; set; }
+        public Guid ChargeId { get; set; }
         public string Name { get; set; } = string.Empty;
         public DateTime CreatedAt { get; set; }
         public decimal Amount { get; set; }

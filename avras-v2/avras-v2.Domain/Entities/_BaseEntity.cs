@@ -1,24 +1,24 @@
 ﻿namespace avras_v2.Domain.Entities
 {
-    public class BaseEntity<T> : BaseEntitWithoutId
+    public class BaseEntity<T> : BaseEntityWithoutId
     {
         public T Id { get; set; }
     }
-    public class BaseEntitWithoutId
+    public class BaseEntityWithoutId
     {
-        private bool Active { get; set; } = true;
-        private bool Delete { get; set; } = false;
-        public DateTime UpdateDate { get; set; } = DateTime.UtcNow;
+        private bool Activated { get; set; } = true;
+        private bool Deleted { get; set; } = false;
+        public DateTime UpdateDate { get; set; }
 
-        public virtual void Deleted()
+        public virtual void Delete()
         {
-            Active = false;
-            Delete = true;
+            Activated = false;
+            Deleted = true;
             UpdateDate = DateTime.UtcNow;
         }
-        public virtual void UpdeteStatus()
+        public virtual void Inactivate()
         {
-            Active = !Active;
+            Activated = !Activated;
             UpdateDate = DateTime.UtcNow;
         }
     }

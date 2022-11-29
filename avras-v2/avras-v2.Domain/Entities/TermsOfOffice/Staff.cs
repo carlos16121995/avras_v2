@@ -1,9 +1,11 @@
-﻿namespace avras_v2.Domain.Entities.Users.TermsOfOffice
+﻿using avras_v2.Domain.Entities.Users;
+
+namespace avras_v2.Domain.Entities.TermsOfOffice
 {
-    public class Staff
+    public class Staff : BaseEntity<Guid>
     {
-        public int TermOfOfficeId { get; set; }
-        public int TitleId { get; set; }
+        public Guid TermOfOfficeId { get; set; }
+        public Guid TitleId { get; set; }
         public Guid UserId { get; set; }
         public string? Description { get; set; }
         public DateTime StartedAt { get; set; }

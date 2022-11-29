@@ -1,6 +1,6 @@
 ﻿namespace avras_v2.Domain.Entities.Patrimonies
 {
-    public class Patrimony : BaseEntity<int>
+    public class Patrimony : BaseEntity<Guid>
     {
         public int PatrimonyTypeId { get; set; }
 
@@ -10,7 +10,7 @@
 
         public int Amount { get; set; }
         
-        public decimal SaleValue { get; set; }
+        public decimal RefundAmount { get; set; }
 
         public decimal PurchaseValue { get; set; }
 

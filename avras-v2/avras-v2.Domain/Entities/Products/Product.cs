@@ -2,7 +2,7 @@
 
 namespace avras_v2.Domain.Entities.Products
 {
-    public class Product : BaseEntity<int>
+    public class Product : BaseEntity<Guid>
     {
         public int ProductCategoryId { get; set; }
         public string Name { get; set; } = string.Empty;

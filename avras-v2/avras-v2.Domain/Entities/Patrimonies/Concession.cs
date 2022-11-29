@@ -7,7 +7,7 @@ namespace avras_v2.Domain.Entities.Patrimonies
 
     public class Concession : BaseEntity<Guid>
     {
-        public int PatrimonyId { get; set; }
+        public Guid PatrimonyId { get; set; }
         public Guid ApplicantId { get; set; }
         public DateTime CreatedAt { get; set; }
         public string? RequestDetails { get; set; }

@@ -1,6 +1,6 @@
 ﻿namespace avras_v2.Domain.Entities.Financials
 {
-    public class CashFlow : BaseEntity<long>
+    public class CashFlow : BaseEntity<Guid>
     {
         public int FundId { get; private set; }
         public decimal Amount { get; private set; }
