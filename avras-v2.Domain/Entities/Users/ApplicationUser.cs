@@ -18,11 +18,12 @@ namespace avras_v2.Domain.Entities.Users
         public DateTime? BirthDate { get; set; }
         public DateTime? DateAcceptedTermUse { get; set; }
         public DateTime? ExpirationDatePassword { get; set; }
-        public int? CodigoAlteracaoSenha { get; set; } 
-        private EUserType UserType { get; set; }
+        public int? CodigoAlteracaoSenha { get; set; }
+        public EUserType UserType { get; private set; }
         private bool Activated { get; set; } = true;
         private bool Deleted { get; set; } = false;
-        public DateTime UpdateDate { get; set; }
+        public DateTime UpdateAt { get; set; }
+        public DateTime CreatedAt { get; set; }
 
 
         public virtual ICollection<Address> Addresses { get; set; } = new HashSet<Address>();
@@ -42,12 +43,12 @@ namespace avras_v2.Domain.Entities.Users
         {
             Activated = false;
             Deleted = true;
-            UpdateDate = DateTime.UtcNow;
+            UpdateAt = DateTime.UtcNow;
         }
         public virtual void Inactivate()
         {
             Activated = !Activated;
-            UpdateDate = DateTime.UtcNow;
+            UpdateAt = DateTime.UtcNow;
         }
 
         public void UpdateUserType(EUserType userType)
@@ -57,16 +58,15 @@ namespace avras_v2.Domain.Entities.Users
             if (UserType.HasFlag(EUserType.ASSOCIATE) && !userType.HasFlag(EUserType.ASSOCIATE)) // Finaliza sociedade
             {
                 var associationTime = AssociationsTime.Last();
-                associationTime.EndedAt = date;
-                associationTime.UpdateDate = date;
+                associationTime.EndAssociation(date);
             }
 
             if (!UserType.HasFlag(EUserType.ASSOCIATE) && userType.HasFlag(EUserType.ASSOCIATE)) // Inicia sociedade
-                AssociationsTime.Add(new()
-                {
-                    StartedAt = date,
-                    UpdateDate = date,
-                });
+            {
+                var associationTime = new AssociationTime();
+                associationTime.StartAssociation(date);
+                AssociationsTime.Add(associationTime);
+            }
 
             UserType = userType;
         }

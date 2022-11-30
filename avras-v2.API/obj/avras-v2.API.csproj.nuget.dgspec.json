@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\carlos.alcantara\\source\\repos\\avras_v2\\avras-v2.API\\avras-v2.API.csproj": {}
+    "C:\\Users\\carlos.alcantara\\Source\\Repos\\avras_v2\\avras-v2.API\\avras-v2.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\carlos.alcantara\\source\\repos\\avras_v2\\avras-v2.API\\avras-v2.API.csproj": {
+    "C:\\Users\\carlos.alcantara\\Source\\Repos\\avras_v2\\avras-v2.API\\avras-v2.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carlos.alcantara\\source\\repos\\avras_v2\\avras-v2.API\\avras-v2.API.csproj",
+        "projectUniqueName": "C:\\Users\\carlos.alcantara\\Source\\Repos\\avras_v2\\avras-v2.API\\avras-v2.API.csproj",
         "projectName": "avras-v2.API",
-        "projectPath": "C:\\Users\\carlos.alcantara\\source\\repos\\avras_v2\\avras-v2.API\\avras-v2.API.csproj",
+        "projectPath": "C:\\Users\\carlos.alcantara\\Source\\Repos\\avras_v2\\avras-v2.API\\avras-v2.API.csproj",
         "packagesPath": "C:\\Users\\carlos.alcantara\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carlos.alcantara\\source\\repos\\avras_v2\\avras-v2.API\\obj\\",
+        "outputPath": "C:\\Users\\carlos.alcantara\\Source\\Repos\\avras_v2\\avras-v2.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\carlos.alcantara\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\carlos.alcantara\\source\\repos\\avras_v2\\avras-v2.Application\\avras-v2.Application.csproj": {
-                "projectPath": "C:\\Users\\carlos.alcantara\\source\\repos\\avras_v2\\avras-v2.Application\\avras-v2.Application.csproj"
+              "C:\\Users\\carlos.alcantara\\Source\\Repos\\avras_v2\\avras-v2.Application\\avras-v2.Application.csproj": {
+                "projectPath": "C:\\Users\\carlos.alcantara\\Source\\Repos\\avras_v2\\avras-v2.Application\\avras-v2.Application.csproj"
               }
             }
           }
@@ -82,14 +82,14 @@
         }
       }
     },
-    "C:\\Users\\carlos.alcantara\\source\\repos\\avras_v2\\avras-v2.Application\\avras-v2.Application.csproj": {
+    "C:\\Users\\carlos.alcantara\\Source\\Repos\\avras_v2\\avras-v2.Application\\avras-v2.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carlos.alcantara\\source\\repos\\avras_v2\\avras-v2.Application\\avras-v2.Application.csproj",
+        "projectUniqueName": "C:\\Users\\carlos.alcantara\\Source\\Repos\\avras_v2\\avras-v2.Application\\avras-v2.Application.csproj",
         "projectName": "avras-v2.Application",
-        "projectPath": "C:\\Users\\carlos.alcantara\\source\\repos\\avras_v2\\avras-v2.Application\\avras-v2.Application.csproj",
+        "projectPath": "C:\\Users\\carlos.alcantara\\Source\\Repos\\avras_v2\\avras-v2.Application\\avras-v2.Application.csproj",
         "packagesPath": "C:\\Users\\carlos.alcantara\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carlos.alcantara\\source\\repos\\avras_v2\\avras-v2.Application\\obj\\",
+        "outputPath": "C:\\Users\\carlos.alcantara\\Source\\Repos\\avras_v2\\avras-v2.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\carlos.alcantara\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -106,11 +106,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\carlos.alcantara\\source\\repos\\avras_v2\\avras-v2.Domain\\avras-v2.Domain.csproj": {
-                "projectPath": "C:\\Users\\carlos.alcantara\\source\\repos\\avras_v2\\avras-v2.Domain\\avras-v2.Domain.csproj"
+              "C:\\Users\\carlos.alcantara\\Source\\Repos\\avras_v2\\avras-v2.Domain\\avras-v2.Domain.csproj": {
+                "projectPath": "C:\\Users\\carlos.alcantara\\Source\\Repos\\avras_v2\\avras-v2.Domain\\avras-v2.Domain.csproj"
               },
-              "C:\\Users\\carlos.alcantara\\source\\repos\\avras_v2\\avras-v2.Infrastructure\\avras-v2.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\carlos.alcantara\\source\\repos\\avras_v2\\avras-v2.Infrastructure\\avras-v2.Infrastructure.csproj"
+              "C:\\Users\\carlos.alcantara\\Source\\Repos\\avras_v2\\avras-v2.Infrastructure\\avras-v2.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\carlos.alcantara\\Source\\Repos\\avras_v2\\avras-v2.Infrastructure\\avras-v2.Infrastructure.csproj"
               }
             }
           }
@@ -174,14 +174,14 @@
         }
       }
     },
-    "C:\\Users\\carlos.alcantara\\source\\repos\\avras_v2\\avras-v2.Domain\\avras-v2.Domain.csproj": {
+    "C:\\Users\\carlos.alcantara\\Source\\Repos\\avras_v2\\avras-v2.Domain\\avras-v2.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carlos.alcantara\\source\\repos\\avras_v2\\avras-v2.Domain\\avras-v2.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\carlos.alcantara\\Source\\Repos\\avras_v2\\avras-v2.Domain\\avras-v2.Domain.csproj",
         "projectName": "avras-v2.Domain",
-        "projectPath": "C:\\Users\\carlos.alcantara\\source\\repos\\avras_v2\\avras-v2.Domain\\avras-v2.Domain.csproj",
+        "projectPath": "C:\\Users\\carlos.alcantara\\Source\\Repos\\avras_v2\\avras-v2.Domain\\avras-v2.Domain.csproj",
         "packagesPath": "C:\\Users\\carlos.alcantara\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carlos.alcantara\\source\\repos\\avras_v2\\avras-v2.Domain\\obj\\",
+        "outputPath": "C:\\Users\\carlos.alcantara\\Source\\Repos\\avras_v2\\avras-v2.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\carlos.alcantara\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -212,7 +212,7 @@
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.10, )"
+              "version": "[6.0.11, )"
             }
           },
           "imports": [
@@ -235,14 +235,14 @@
         }
       }
     },
-    "C:\\Users\\carlos.alcantara\\source\\repos\\avras_v2\\avras-v2.Infrastructure\\avras-v2.Infrastructure.csproj": {
+    "C:\\Users\\carlos.alcantara\\Source\\Repos\\avras_v2\\avras-v2.Infrastructure\\avras-v2.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carlos.alcantara\\source\\repos\\avras_v2\\avras-v2.Infrastructure\\avras-v2.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\carlos.alcantara\\Source\\Repos\\avras_v2\\avras-v2.Infrastructure\\avras-v2.Infrastructure.csproj",
         "projectName": "avras-v2.Infrastructure",
-        "projectPath": "C:\\Users\\carlos.alcantara\\source\\repos\\avras_v2\\avras-v2.Infrastructure\\avras-v2.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\carlos.alcantara\\Source\\Repos\\avras_v2\\avras-v2.Infrastructure\\avras-v2.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\carlos.alcantara\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carlos.alcantara\\source\\repos\\avras_v2\\avras-v2.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\carlos.alcantara\\Source\\Repos\\avras_v2\\avras-v2.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\carlos.alcantara\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -259,8 +259,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\carlos.alcantara\\source\\repos\\avras_v2\\avras-v2.Domain\\avras-v2.Domain.csproj": {
-                "projectPath": "C:\\Users\\carlos.alcantara\\source\\repos\\avras_v2\\avras-v2.Domain\\avras-v2.Domain.csproj"
+              "C:\\Users\\carlos.alcantara\\Source\\Repos\\avras_v2\\avras-v2.Domain\\avras-v2.Domain.csproj": {
+                "projectPath": "C:\\Users\\carlos.alcantara\\Source\\Repos\\avras_v2\\avras-v2.Domain\\avras-v2.Domain.csproj"
               }
             }
           }

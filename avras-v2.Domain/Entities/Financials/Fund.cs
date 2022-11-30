@@ -9,7 +9,7 @@
         public void UpdateValue(decimal amount)
         {
             Amount += amount;
-            UpdateDate = DateTime.UtcNow;
+            UpdateAt = DateTime.UtcNow;
         }
     }
 }

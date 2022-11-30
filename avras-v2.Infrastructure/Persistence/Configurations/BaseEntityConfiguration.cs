@@ -10,7 +10,7 @@ namespace avras_v2.Infrastructure.Persistence.Configurations
             where T : BaseEntityWithoutId
         {
             builder
-               .Property(e => e.UpdateDate)
+               .Property(e => e.UpdateAt)
                .HasDefaultValueSql("GetUtcDate()")
                .ValueGeneratedOnAdd();
         }

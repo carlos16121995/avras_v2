@@ -8,18 +8,18 @@
     {
         private bool Activated { get; set; } = true;
         private bool Deleted { get; set; } = false;
-        public DateTime UpdateDate { get; set; }
+        public DateTime UpdateAt { get; set; }
 
         public virtual void Delete()
         {
             Activated = false;
             Deleted = true;
-            UpdateDate = DateTime.UtcNow;
+            UpdateAt = DateTime.UtcNow;
         }
         public virtual void Inactivate()
         {
             Activated = !Activated;
-            UpdateDate = DateTime.UtcNow;
+            UpdateAt = DateTime.UtcNow;
         }
     }
 }

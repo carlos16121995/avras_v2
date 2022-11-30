@@ -11,6 +11,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "avras-v2.Domain", "avras-v2
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "avras-v2.Infrastructure", "avras-v2.Infrastructure\avras-v2.Infrastructure.csproj", "{B6CB4E18-85A7-4880-A1EE-2C2B57386096}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7D0855AB-02D2-4200-9368-669E2EB56E8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "avras-v2.Test.Core", "avras-v2.Test.Core\avras-v2.Test.Core.csproj", "{E2075ACA-7A16-4539-8B76-5F1F34947E7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "avras-v2.Test.Test", "avras-v2.Test.Test\avras-v2.Test.Test.csproj", "{2D722C8B-13F5-48DC-AD6B-8981924C15D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,9 +39,21 @@ Global
 		{B6CB4E18-85A7-4880-A1EE-2C2B57386096}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6CB4E18-85A7-4880-A1EE-2C2B57386096}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6CB4E18-85A7-4880-A1EE-2C2B57386096}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2075ACA-7A16-4539-8B76-5F1F34947E7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2075ACA-7A16-4539-8B76-5F1F34947E7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2075ACA-7A16-4539-8B76-5F1F34947E7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2075ACA-7A16-4539-8B76-5F1F34947E7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D722C8B-13F5-48DC-AD6B-8981924C15D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D722C8B-13F5-48DC-AD6B-8981924C15D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D722C8B-13F5-48DC-AD6B-8981924C15D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D722C8B-13F5-48DC-AD6B-8981924C15D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E2075ACA-7A16-4539-8B76-5F1F34947E7D} = {7D0855AB-02D2-4200-9368-669E2EB56E8A}
+		{2D722C8B-13F5-48DC-AD6B-8981924C15D1} = {7D0855AB-02D2-4200-9368-669E2EB56E8A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F3110606-A7A3-4B3C-A5E1-49EC40B6BECD}

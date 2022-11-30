@@ -16,7 +16,8 @@ namespace avras_v2.Infrastructure.Persistence.Configurations.Users
                 .HasDefaultValueSql("NEWSEQUENTIALID()");
 
             builder
-                .HasIndex(e => e.NormalizedEmail, "EmailIndex");
+                .HasIndex(e => e.NormalizedEmail, "EmailIndex")
+                .IsUnique();
 
             builder
                 .HasIndex(e => e.Email, "IX_ApplicationUser_Email")
@@ -39,7 +40,7 @@ namespace avras_v2.Infrastructure.Persistence.Configurations.Users
                .IsUnicode(false);
 
             builder
-                .Property((e) => e.UpdateDate)
+                .Property((e) => e.UpdateAt)
                 .HasDefaultValueSql("GetUtcDate()")
                 .ValueGeneratedOnAdd();
 
