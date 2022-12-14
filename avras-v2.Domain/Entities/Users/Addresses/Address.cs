@@ -14,6 +14,8 @@
 
         public string Number { get; set; } = string.Empty;
 
+        public string? Complement { get; set; } = string.Empty;
+
         public virtual ApplicationUser? User { get; set; }
 
         public virtual City? City { get; set; }

@@ -39,6 +39,11 @@ namespace avras_v2.Infrastructure.Persistence.Configurations.Users.Addresses
                .IsUnicode(false);
 
             builder
+               .Property((b) => b.Complement)
+               .HasMaxLength(60)
+               .IsUnicode(false);
+
+            builder
                 .HasOne(address => address.User)
                 .WithMany(user => user.Addresses);
 

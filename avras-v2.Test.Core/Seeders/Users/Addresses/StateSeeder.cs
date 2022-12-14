@@ -1,9 +1,9 @@
-﻿using avras_v2.Test.Core.DataBaseSeeder.Abstractions;
+﻿using avras_v2.Domain.Entities.Users.Addresses;
+using avras_v2.Infrastructure.Persistence;
+using avras_v2.Test.Core.DataBaseSeeder.Abstractions;
 using Bogus;
-using CRUD.Domain.Entities.Localities;
-using CRUD.Infrastructure.Persistence;
 
-namespace avras_v2.Test.Core.Seeders.Localities
+namespace avras_v2.Test.Core.Seeders.Users.Addresses
 {
     public class StateSeeder : IDatabaseSeed<Context>
     {

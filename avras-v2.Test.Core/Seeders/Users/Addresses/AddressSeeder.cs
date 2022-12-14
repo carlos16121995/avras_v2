@@ -1,11 +1,10 @@
-﻿using avras_v2.Test.Core.DataBaseSeeder.Abstractions;
+﻿using avras_v2.Domain.Entities.Users.Addresses;
+using avras_v2.Infrastructure.Persistence;
+using avras_v2.Test.Core.DataBaseSeeder.Abstractions;
 using Bogus;
-using CRUD.Domain.Entities.Users.Addresses;
-using CRUD.Domain.Enums;
-using CRUD.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 
-namespace avras_v2.Test.Core.Seeders.Users
+namespace avras_v2.Test.Core.Seeders.Users.Addresses
 {
     public class AddressSeeder : IDatabaseSeed<Context>
     {
@@ -23,15 +22,12 @@ namespace avras_v2.Test.Core.Seeders.Users
         public List<Address> SeedAddress(Context context, Guid userId) => new Faker<Address>()
             .RuleFor(c => c.UserId, userId)
             .RuleFor(c => c.CityId, TakeCityRandom(context))
-            .RuleFor(c => c.AddressType, f => f.Random.Enum<EAddressType>())
             .RuleFor(c => c.ZipCode, f => f.Address.ZipCode())
             .RuleFor(c => c.Street, f => f.Address.StreetAddress())
             .RuleFor(c => c.Neighborhood, f => f.Address.StreetName())
             .RuleFor(c => c.Number, f => f.Address.BuildingNumber())
             .RuleFor(c => c.Complement, f => f.Address.BuildingNumber())
-            .RuleFor((p) => p.Activated, true)
-            .RuleFor((p) => p.Deleted, false)
-            .Generate(10);
+            .Generate(2);
 
         private int TakeCityRandom(Context context) => Random.Shared.Next(1, context.Cities.Count());
     }

@@ -12,7 +12,7 @@ namespace avras_v2.Test.Test
     using avras_v2.Infrastructure.Persistence;
     using avras_v2.Test.Core.DataBaseSeeder;
     using avras_v2.Test.Core.Extensions;
-    using avras_v2.Test.Core.Seeders.Localities;
+    using avras_v2.Test.Core.Seeders.Users.Addresses;
 
     public static class Startup
     {
